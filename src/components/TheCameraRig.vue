@@ -25,7 +25,7 @@
           geometry="primitive: circle; radius: 0.0003;"
           material="shader: flat; color: white;"
           cursor
-          raycaster="far: 4; objects: [clickable]; showLine: false;"
+          raycaster="far: 400; objects: [clickable]; showLine: false;"
           position="0 0 -0.1"
           disable-in-vr="component: raycaster; disableInAR: false;"
           hide-in-vr="hideInAR: false"
@@ -54,7 +54,7 @@
         id="hand-right"
         hand-controls="hand: right"
         laser-controls="hand: right"
-        raycaster="far: 4; objects: [clickable]; showLine: true;"
+        raycaster="far: 400; objects: [clickable]; showLine: true;"
         physx-grab
       >
         <a-sphere id="hand-right-collider"
